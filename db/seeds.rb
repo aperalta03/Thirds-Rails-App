@@ -32,7 +32,7 @@ more_movies = [
   {:title => 'Wall-E', :rating => 'PG-13',
     :release_date => '09-Nov-2008'},
   {:title => 'The Godfather', :rating => 'R',
-    :release_date => '07-Mar-2021'}
+    :release_date => '07-Mar-2021'},
 
     # Additional Movies - AI
   {:title => 'Inception', :rating => 'PG-13',

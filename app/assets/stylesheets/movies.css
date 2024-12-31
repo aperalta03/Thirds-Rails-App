@@ -1,0 +1,210 @@
+/* ----------------------- */
+/* General Page Styling    */
+/* ----------------------- */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9fafc;
+}  
+h1.title-page {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+  
+/* ----------------------- */
+/* Table Styling           */
+/* ----------------------- */
+
+table.movie-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}  
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}  
+th {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    user-select: none;
+}  
+/* Sorted Column */
+.sorted-column {
+    font-weight: bold;
+}  
+.sorted-column.sorted-asc, th.sorted-column.sorted-asc {
+    background-color: rgb(185, 227, 233) !important;
+}  
+.sorted-column.sorted-desc, .th.sorted-column.sorted-desc {
+    background-color: rgb(212, 234, 237) !important;  
+}  
+tbody tr:hover {
+    background-color: #f1f1f1;
+}  
+tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}  
+tfoot td {
+    text-align: center;
+    padding: 15px;
+}  
+tfoot a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}  
+tfoot a:hover {
+    color: #0077cc;
+}  
+
+/* ----------------------- */
+/* Buttons and Links       */
+/* ----------------------- */
+
+.action-link {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    color: #0077cc;
+    border: 1px solid #0077cc;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}  
+.action-link:hover {
+    background-color: #0077cc;
+    color: white;
+}  
+/* Delete Button Styling */
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+}  
+.delete-button:hover {
+    background-color: #cc0000;
+}
+button[data-confirm] {
+    cursor: pointer;
+}  
+  
+/* ----------------------- */
+/* Show Page Styling       */
+/* ----------------------- */
+
+.movie-show {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+/* ----------------------- */
+/* Form Styling            */
+/* ----------------------- */
+  
+.movie-form {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}  
+/* Error Messages */
+.form-errors {
+    color: #cc0000;
+    background-color: #ffe6e6;
+    border: 1px solid #cc0000;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}  
+.form-errors h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}  
+.form-errors ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}  
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}  
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}  
+.form-group .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}  
+/* Submit Button */
+.form-actions {
+    text-align: center;
+    margin-top: 20px;
+}  
+.form-submit-button {
+    background-color: #0077cc;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-submit-button:hover {
+    background-color: #0056a3;
+}
+
+/* ----------------------- */
+/* Miscellaneous           */
+/* ----------------------- */
+
+.movie-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+.page-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}  
